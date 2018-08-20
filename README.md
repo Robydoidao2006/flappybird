@@ -4,4 +4,4 @@ Test the game
  https://robydoidao2006.github.io/flappybird/
  
  
-![alt text](images/flappybird.jpg)
+![alt text](images/gameimage.jpg)
