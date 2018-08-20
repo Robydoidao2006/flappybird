@@ -1,6 +1,6 @@
 # Flappy Bird The Game.
 
-Test the game 
+Test the game (for better experience, pull the repo)
  https://robydoidao2006.github.io/flappybird/
  
  
