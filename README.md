@@ -17,4 +17,5 @@ https://robydoidao2006.github.io/flappybird/
 - add more sounds
 - add coin system 
 - player will be able to purchase new maps and character thorught the ingame coin system
+- add animation to the bird.
 
