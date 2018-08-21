@@ -1,0 +1,118 @@
+
+- premitive types (integers, booling, null/undefined)
+
+    string = goes inside " here ";
+    whole integers  = number that are comple, like 100, 10, 5, etc..
+    floating points numbers = 10.1 , 1.8, etc...
+
+    booling is a true or false statements.
+
+    null = is empty or has no value.
+    undefined  = it containes something but it hasnt been defind yet.
+
+    NaN = not a number.
+
+var name = "cat"
+    name
+    "cat" <- is store in name.
+
+var last = "fish"
+    last 
+    "fish"
+
+name+last 
+    catfish
+const lastname = "robert"; <- will allways be whatever you assigned to it.
+
+- What are operators ?
+    operators run a function 
+
+- what are operators precedence ?
+    is the order in wich operators are executes
+    for instanse.
+    5 + 2 * 3 =   
+      7   * 3 = 21 ( this is wrong, its not left to right but rather the procedence of the operators)
+    
+    5 + 2 * 3 = (multiplication comes first)
+    5         = 6
+    5 + 6     = 11 ( this is the right anwser).
+    for more info, look it up >  js procedence mdn.
+
+- IDE = integrated development enviroment ( simply means code editor)
+
+- function or subroutines
+    task defines by a set of instructions that can be run in certain point in time
+    for example . making coffe, first boil water, put coffee, put sugar and mix it.
+
+- function makecoffee ( sugar, milk) {
+    sugar and milk are parameters
+   
+   return instructions;
+}
+     makecoffee(2 , 20); the 2, 20 are arguments.
+     makecoffee(4, 10);
+     
+     *** SEE EXAMPLE IN THE CONSOLE  ***
+    
+- Arrays = are list of objects
+    standart objects and arrays, when to use them ?
+    
+(STANDART OBJECT)
+    var car =
+{ //objects use {..}
+//keyname : value (both together are called properties (properties describes an object))
+    color : "red",
+    speed : 165,
+    maker : "volvo",
+***//subroutines inside object its call a METHOD ****
+    drive : function(){...},
+    stop  : function(){...},
+};
+
+(ARRAYS)
+var shopList =
+[// arrays use [...]
+    0 : "apple",
+    1 : "orange",
+    2 : "pear"
+**** remember arrays are zero index. meaning the first fruit of this list is number 0. number 2 = pear.
+]
+
+*** AGAIN SEE EXAMPLE IN THE CONSOLE ***
+
+
+- objects can contain other objects
+     for example, a car, it has engine, tires, seats etc.... all together = objects.
+
+***********************
+** (using scriptTwo) **
+***********************
+
+- stracting specifict information out of an object (*** CONSOLE *****)
+var car = {
+    make: "volvo",
+    speed: "160",
+    engine: {
+        size: 2.0,
+        fuel: "petrol"
+
+    },
+    drive: function(){ return "drive";}
+};
+
+how to see the make ?
+
+car.make 
+returns string
+"volvo"
+
+car.make[2] = "l"
+return the letter of the car maker volvo, remember is zero base.
+
+
+
+*************************
+** (using scriptThree) **
+*************************
+
+
